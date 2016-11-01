@@ -24,4 +24,13 @@
         android:layout_marginStart="31dp"
         android:layout_marginTop="91dp"
         android:id="@+id/button" />
+
+    <TextView
+        android:text="Version 0.01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="142dp"
+        android:id="@+id/textViewVersion"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
 </RelativeLayout>
