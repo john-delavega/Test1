@@ -5,6 +5,10 @@ test app using Android Studio 2.2.2
 
 
 
+Version 0.04    2016-11-02
+
+ - git rm -f .idea/misc.xml
+
 Version 0.03    2016-11-01
 
  - textViewRandom
