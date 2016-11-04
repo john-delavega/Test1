@@ -4,6 +4,9 @@ test app using Android Studio 2.2.2
 
 
 
+Version 0.05    2016-11-03
+
+ - SeekBar test
 
 Version 0.04    2016-11-02
 

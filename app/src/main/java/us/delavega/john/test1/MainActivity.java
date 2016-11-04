@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.SeekBar;
 import android.view.View;
 import android.view.View.OnClickListener;
 
@@ -28,6 +29,8 @@ public class MainActivity extends Activity {
 
         final TextView textView  = (TextView) findViewById(R.id.textViewRandom);
 
+        final SeekBar seekBar  = (SeekBar) findViewById(R.id.seekBar1);
+
         //textView.setText("test");
 
         button.setOnClickListener(new OnClickListener() {
@@ -38,6 +41,10 @@ public class MainActivity extends Activity {
                 double x = Math.random();
 
                 textView.setText(Double.toString(x)); // requires final declaration
+
+                seekBar.setMax(100);
+                seekBar.setProgress((int)(x*100)); // random int 0 to 99
+                //seekBar.setProgress(50); // OK
 
              //   System.out.print("test1");
               //  android.util.Log.d ("test1");
