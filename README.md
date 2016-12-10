@@ -1,8 +1,5 @@
 # Test1
 
-hey Maurino, it's me, 2016-12-08
-
-
 
 test app using Android Studio 2.2.2
 
